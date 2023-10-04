@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | News homepage</title>
+  <script src="index.js" defer></script>
+</head>
+<body>
+
+  <header class="header_container header_flex container">
+    <img src="./assets/images/logo.svg" alt="news logo" class="logo_img">
+    <img src="./assets/images/icon-menu.svg" alt="" class="hamburger_menu mobile">
+
+    <nav class="nav_flex desktop">
+      <a href="#" class="nav_items">Home</a>
+      <a href="#" class="nav_items">New</a>
+      <a href="#" class="nav_items">Popular</a>
+      <a href="#" class="nav_items">Trending</a>
+      <a href="#" class="nav_items">Categories</a>
+    </nav>
+
+    <aside class="hidden_menu mobile">
+      <nav class="nav_menu">
+        <img src="./assets/images/icon-menu-close.svg" alt="" class="close_button">
+        <a href="#" class="menu_items">Home</a>
+        <a href="#" class="menu_items">New</a>
+        <a href="#" class="menu_items">Popular</a>
+        <a href="#" class="menu_items">Trending</a>
+        <a href="#" class="menu_items">Categories</a>  
+      </nav>
+    </aside>
+  </header>
+
+  <main class="main_container main_grid container ">
+    <h1 class="title grid_1">The Bright Future Of Web 3.0?</h1>
+    <img src="./assets/images/image-web-3-mobile.jpg" alt="" class="hero_img mobile">
+    <img src="./assets/images/image-web-3-desktop.jpg" alt="" class="hero_img desktop grid_2">
+    <section class="copy_section grid_3">
+      <p class="main_copy ">  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        
+        <button class="read-more_btn ">Read more</button>
+    </section>
+ 
+  <aside class="sidebar grid_4">
+    <h2 class="secondary_title">New</h2>
+    <h3 class="tertiary_title"><a href="" class="new_links">Hydrogen VS Electric Cars</a></h3>
+    <p class="new_copy border"> Will hydrogen-fueled cars ever catch up to EVs?</p>
+
+    <h3 class="tertiary_title"><a href="" class="new_links">The Downsides of AI Artistry</a></h3>
+    <p class="new_copy border"> What are the possible adverse effects of on-demand AI image generation?</p>
+
+    <h3 class="tertiary_title"><a href="" class="new_links">Is VC Funding Drying Up?</a></h3>
+    <p class="new_copy">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+  </aside>
+
+  <section class="tech_news_flex grid_5">
+    <img src="./assets/images/image-retro-pcs.jpg" alt="" class="tech_new_img">
+    <div class="tech_news_info">
+      <h3 class="tech_news_title"><a href="" class="tech_links">Reviving Retro PCs</a></h3>
+      <p class="tech_news_no">01</p>
+      <p class="tech_news_copy">What happens when old PCs are given modern upgrades?</p>
+    </div>
+  </section>
+
+  <section class="tech_news_flex grid_6">
+    <img src="./assets/images/image-top-laptops.jpg" alt="" class="tech_new_img">
+    <div class="tech_news_info">
+      <h3 class="tech_news_title"><a href="" class="tech_links">Top 10 Laptops of 2022</a></h3>
+      <p class="tech_news_no">02</p>
+      <p class="tech_news_copy">Our best picks for various needs and budgets.</p>
+    </div>
+  </section>
+
+  <section class="tech_news_flex grid_7">
+    <img src="./assets/images/image-gaming-growth.jpg" alt="" class="tech_new_img">
+    <div class="tech_news_info">
+      <h3 class="tech_news_title"><a href="" class="tech_links">The Growth of Gaming</a></h3>
+      <p class="tech_news_no">03</p>
+      <p class="tech_news_copy">How the pandemic has sparked fresh opportunities.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>
